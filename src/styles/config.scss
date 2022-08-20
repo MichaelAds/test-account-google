@@ -1,0 +1,22 @@
+main {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5B5B5B;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 70%;
+}
+
+.progressBar {
+    width: 70%;
+}
+
+.title {
+    margin-left: 5px;
+}
+
+p {
+    margin-top: 15px;
+}

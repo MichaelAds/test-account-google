@@ -1,0 +1,62 @@
+aside {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+
+    .line {
+        height: 10px;
+        width: 100%;
+        background: #4DA9FF;
+        border-radius: 100px 100px 10px 10px;
+    }
+
+    
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    input {
+        height: 50px;
+        border-radius: 8px;
+        padding: 0 16px;
+        background-color: #fff;
+        border: 1px solid #a8a8b3;
+    }
+
+
+    button, input {
+        width: 100%;
+    }
+}
+
+.form-checkbox {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: #F0F0F0;
+    border-radius: 0px 0px 10px 10px;
+    .checkbox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 0;
+        label {
+            width: 40%;
+            color: #5B5B5B;
+            display: flex;
+            align-items: center;
+            span {
+                margin-left: 10px;
+                font-size: 22px;
+            }
+            input {
+                color: #5B5B5B;
+            }
+        }
+    }
+}
